@@ -24,7 +24,7 @@ jobs:
         run: |
           npm init -y
           npm install @capacitor/core @capacitor/android
-          npx cap sync android --force
+          npx cap sync android
 
       - uses: android-actions/setup-android@v3
 
